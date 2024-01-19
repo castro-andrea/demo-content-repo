@@ -1,0 +1,108 @@
+
+# ****************************************************************************
+# Internationalizing your code?
+#    Checkout our Quick Start README!
+#    /asana2/docs/web_app/luna-ui/internationalization.md
+# ****************************************************************************
+
+'"<stringToComment>{comment}</stringToComment>"':
+  author: jinchang
+  locations:
+  - asana2/asana/email/core/components/email_comment_hearted_story_with_preview.ts
+  value: '"<stringToComment>{comment}</stringToComment>"'
+'"{comment}"':
+  author: jinchang
+  deprecated: true
+  locations:
+  - asana2/asana/email/core/components/email_comment_hearted_story.ts
+  value: '"{comment}"'
+'"{formName}" submission':
+  author: seansun
+  locations:
+  - apps/asana/email/form_submission_markup_email.js
+  value: '"{formName}" submission'
+'"{inviteMessage}"':
+  author: sophiayao
+  locations:
+  - asana2/asana/email/domain_invite_email/domain_invite_email.ts
+  value: '"{inviteMessage}"'
+'"{message}"':
+  author: adrianyen
+  locations:
+  - asana2/luna-ui/src/components/inbox/details/added_to_project.ts
+  - asana2/luna-ui/src/components/inbox/details/internal/added_to_pot.ts
+  - asana2/luna-ui/src/components/inbox/details/internal/portfolio_pane.ts
+  - asana2/luna-ui/src/components/inbox/details/portfolio_pane.ts
+  value: '"{message}"'
+'"{projectName}" and {count} other projects will be moved to the References [...]':
+  author: lesialiao
+  comment: Use same translation as 'References [noun]'
+  fallback_key: '"{projectName}" and {count} other projects will be moved to the Supporting work [...]'
+  locations:
+  - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" and {count} other project will be moved to the References section once your changes are saved.'
+    count_other: '"{projectName}" and {count} other projects will be moved to the References section once your changes are saved.'
+? '"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects [...]'
+: author: lesialiao
+  comment: Use same translation as 'References [noun]'
+  fallback_key: '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]'
+  locations:
+  - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" and {count} other project will be moved to the References section once your changes are saved. Projects you don’t have access to will also be affected.'
+    count_other: '"{projectName}" and {count} other projects will be moved to the References section once your changes are saved. Projects you don’t have access to will also be affected.'
+'"{projectName}" and {count} other projects will be moved to the Supporting work [...]':
+  author: phillipyu
+  locations:
+  - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" and {count} other project will be moved to the Supporting work section once your changes are saved.'
+    count_other: '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved.'
+? '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects [...]'
+: author: phillipyu
+  locations:
+  - asana2/asana/web/goals/views/goal_set_metric_dialog/goal_set_metric_warning_banner.ts
+  value:
+    count_one: '"{projectName}" and {count} other project will be moved to the Supporting work section once your changes are saved. Projects you don’t have access to will also be affected.'
+    count_other: '"{projectName}" and {count} other projects will be moved to the Supporting work section once your changes are saved. Projects you don’t have access to will also be affected.'
+<b>iOS and Android:</b> [...] [Template content Team Lead Mobile NUX]:
+  author: isaac
+  comment: For Team Lead Mobile NUX sample project, see https://app.asana.com/0/1120353252749580/1127620132003811
+  deprecated: true
+  value: '<b>iOS and Android:</b>
+
+    https://asana.com/guide/team/advanced/asana-for-mobile
+
+
+    <b>Desktop:</b>
+
+    https://asana.com/guide/get-started/begin/quick-start'
+<b>{count}</b> parent goals:
+  author: annanakai
+  locations:
+  - asana2/asana/web/goals/views/goal_page_header/goal_page_header_delete_goal_dialog.ts
+  value:
+    count_one: <b>{count}</b> parent goal
+    count_other: <b>{count}</b> parent goals
+<b>{count}</b> sub-goals:
+  author: annanakai
+  locations:
+  - asana2/asana/web/goals/views/goal_page_header/goal_page_header_delete_goal_dialog.ts
+  value:
+    count_one: <b>{count}</b> sub-goal
+    count_other: <b>{count}</b> sub-goals
+<b>{count}</b> supporting projects and Portfolios:
+  author: annanakai
+  locations:
+  - asana2/asana/web/goals/views/goal_page_header/goal_page_header_delete_goal_dialog.ts
+  value:
+    count_one: <b>{count}</b> supporting project or Portfolio
+    count_other: <b>{count}</b> supporting projects and Portfolios
+<b>{domainName}</b> is an Organization for all people with <b>{emailSuffix}</b> email addresses.:
+  author: sri
+  locations:
+  - apps/asana/view/dialog/not_my_organization_dialog_view.js
+  - asana2/luna-ui/src/components/nux/nux_not_my_organization_dialog.ts
+  - asana2/luna-ui/src/components/nux_helpers/nux_shared_components/nux_not_my_organization_dialog.ts
+  value: <b>{domainName}</b> is an Organization for all people with <b>{emailSuffix}</b> email addresses.
