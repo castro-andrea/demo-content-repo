@@ -1,0 +1,4 @@
+"<b>{count}</b> supporting projects and Portfolios":
+  "count_one": "progetto o portfolio di<b>{count}</b> supporto"
+  "count_other": "<b>{count}</b> progetti e portfolio di supporto"
+"<b>{domainName}</b> is an Organization for all people with <b>{emailSuffix}</b> email addresses.": "<b>{domainName}</b> è un'organizzazione per tutte le persone con indirizzi <b>{emailSuffix}</b> e-mail."
