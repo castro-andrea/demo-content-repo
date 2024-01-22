@@ -17,6 +17,7 @@ innestato:
     with double quotes"
   presto: 'value on two lines
     with single quotes'
+  adesso: "test value"
 array:
   - uno: string with trailing colon
     due: simple string
