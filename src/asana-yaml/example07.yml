@@ -5,12 +5,12 @@
 #    /asana2/docs/web_app/luna-ui/internationalization.md
 # ****************************************************************************
 
-'"<stringToComment>{comment}</stringToComment>"':
+'"<stringToComment>{comment}{comment}</stringToComment>"':
   author: jinchang
   locations:
   - asana2/asana/email/core/components/email_comment_hearted_story_with_preview.ts
   value: '"<stringToComment>{comment}{comment}</stringToComment>"'
-'"{comment}"':
+'"{comment}{{comment}}"':
   author: jinchang
   deprecated: true
   locations:
