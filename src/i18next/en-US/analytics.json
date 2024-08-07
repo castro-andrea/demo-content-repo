@@ -54,5 +54,6 @@
   "no-posts-to-show": "No posts to show",
   "this-is-a-welcome-message-which-cannot-be-unsent": "This is a welcome message which cannot be unsent",
   "hide-permanently": "Hide Permanently",
-  "id-copied": "ID Copied"
+  "id-copied": "ID Copied",
+  "test": "test"
 }
