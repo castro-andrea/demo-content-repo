@@ -1,0 +1,9 @@
+key1:
+  value: "this is a test"
+key2:
+  variants:
+    v1: "this is a variant"
+    v2: "this is another variant"
+key3:
+  count_one: "one item"
+  count_other: "{count} items"
