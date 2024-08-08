@@ -60,13 +60,9 @@
   "fabiux": {
     "nested1": {
       "nested2": {
-        "key1": "value 1"
+        "key1": "value 1",
+        "key2": "value 2"
       }
-    }
-  },
-  "nested1": {
-    "nested2": {
-      "key2": "value 2"
     }
   }
 }
