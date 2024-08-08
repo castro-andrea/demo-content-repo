@@ -46,5 +46,13 @@
   "wednesday-short": "We",
   "thursday-short": "Th",
   "friday-short": "Fr",
-  "saturday-short": "Sa"
+  "saturday-short": "Sa",
+  "fabiux": {
+    "nested1": {
+      "nested2": {
+        "key1": "value 1",
+        "key2": "value 2"
+      }
+    }
+  }
 }
