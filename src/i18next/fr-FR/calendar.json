@@ -1,0 +1,72 @@
+{
+  "seconds_one": "seconde",
+  "seconds_other": "secondes",
+  "seconds_many": "secondes",
+  "minutes_one": "minute",
+  "minutes_other": "minutes",
+  "minutes_many": "minutes",
+  "hours_one": "heure",
+  "hours_other": "heures",
+  "hours_many": "heures",
+  "days_one": "jour",
+  "days_other": "jours",
+  "days_many": "jours",
+  "weeks_one": "semaine",
+  "weeks_other": "semaines",
+  "weeks_many": "semaines",
+  "months_one": "mois",
+  "months_other": "mois",
+  "months_many": "mois",
+  "years_one": "année",
+  "years_other": "années",
+  "years_many": "années",
+  "count-seconds_one": "{{count}} seconde",
+  "count-seconds_other": "{{count}} secondes",
+  "count-seconds_many": "{{count}} secondes",
+  "count-weeks_one": "{{count}} semaine",
+  "count-weeks_other": "{{count}} semaines",
+  "count-weeks_many": "{{count}} semaines",
+  "count-months_one": "{{count}} mois",
+  "count-months_other": "{{count}} mois",
+  "count-months_many": "{{count}} mois",
+  "count-years_one": "{{count}} année",
+  "count-years_other": "{{count}} années",
+  "count-years_many": "{{count}} années",
+  "january": "Janvier",
+  "february": "Février",
+  "march": "Mars",
+  "april": "Avril",
+  "may": "Mai",
+  "june": "Juin",
+  "july": "Juillet",
+  "august": "Août",
+  "september": "Septembre",
+  "october": "Octobre",
+  "november": "Novembre",
+  "december": "Décembre",
+  "today": "Aujourd'hui",
+  "tomorrow": "Demain",
+  "yesterday": "Hier",
+  "today_lower": "aujourd'hui",
+  "tomorrow_lower": "demain",
+  "yesterday_lower": "hier",
+  "sunday-short": "Su",
+  "monday-short": "Mo",
+  "tuesday-short": "Tu",
+  "wednesday-short": "Nous",
+  "thursday-short": "Th",
+  "friday-short": "Fr",
+  "saturday-short": "Sa",
+  "fabiux": {
+    "nested1": {
+      "nested2": {
+        "key1": "value 1"
+      }
+    }
+  },
+  "nested1": {
+    "nested2": {
+      "key2": "value 2"
+    }
+  }
+}
