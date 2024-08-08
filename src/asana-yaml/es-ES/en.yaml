@@ -1,0 +1,8 @@
+"key1": "esto es una prueba"
+"key2":
+  "variants":
+    "v1": "esta es una variante"
+    "v2": "esta es otra variante"
+"key3":
+  "count_one": "un artículo"
+  "count_other": "{count} artículos"
