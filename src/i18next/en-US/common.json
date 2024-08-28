@@ -1,3 +1,5 @@
 {
-  "welcome-messages": "Willkommens\u00ADnachrichten"
+  "new-messages_one": "{{count}} Neue Nachricht",
+  "new-messages_other": "{{count}} Neue Nachrichten",
+  "new-messages": "Neue Nachrichten"
 }
