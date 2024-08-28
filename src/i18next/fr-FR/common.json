@@ -1,6 +1,0 @@
-{
-  "new-messages_one": "{{count}} Neue Nachricht",
-  "new-messages_many": "{{count}} Neue Nachrichten",
-  "new-messages_other": "{{count}} Neue Nachrichten",
-  "new-messages": "Neue Nachrichten"
-}
