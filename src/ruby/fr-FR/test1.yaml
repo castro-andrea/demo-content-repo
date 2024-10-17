@@ -1,4 +1,8 @@
 "fr-FR":
   "errors":
     "messages":
-      "not_saved": "Veuillez corriger les erreurs suivantes"
+      "not_saved": "Veuillez remplir correctement les champs suivantes :"
+  "test_count":
+    "one": "<plural_one>Il y a un test.</plural_one>"
+    "many": "<plural_many>Il y a %{count} des tests.</plural_many>"
+    "other": "<plural_other>Il y a %{count} des tests.</plural_other>"
