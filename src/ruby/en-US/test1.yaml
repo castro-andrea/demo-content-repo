@@ -6,4 +6,4 @@
 en-GB:
   errors:
     messages:
-      not_saved: 'Please correct the following errors:'
+      not_saved: 'Please correct the following errors'
