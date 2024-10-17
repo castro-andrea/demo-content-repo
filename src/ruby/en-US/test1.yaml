@@ -7,17 +7,6 @@ en-GB:
   errors:
     messages:
       not_saved: 'Please correct the following errors:'
-  activerecord:
-    attributes:
-      user:
-        name: 'Display Name'
-        email: 'Email'
-        username: 'Username'
-        password: 'Password'
-        password_confirmation: 'Password confirmation'
-        current_password: 'Current password'
-        age: 'Age'
-        gender: 'Gender'
-        gender_student_input: 'Gender'
-        gender_teacher_input: 'Gender'
-        finish_sign_up_header_error: 'Please correct the following errors:'
+  test_count:
+    one: 'There is one test.'
+    other: 'There are %{count} tests.'
