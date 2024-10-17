@@ -3,6 +3,6 @@
     "messages":
       "not_saved": "Correggere i seguenti errori:"
   "test_count":
-    "one": "<plural_one>C'è un test.</plural_one>"
-    "many": "<plural_many>Ci sono %{count} dei test.</plural_many>"
-    "other": "<plural_other>Ci sono %{count} dei test.</plural_other>"
+    "one": "C'è un test."
+    "many": "Ci sono %{count} dei test."
+    "other": "Ci sono %{count} dei test."
