@@ -1,10 +1,12 @@
 key1:
-  value: "this is a test"
+  value: "this is a test edited"
 key2:
   variants:
-    v1: "this is a variant"
-    v2: "this is another variant"
+    v1: "this is a variant edited again"
+    v2: "this is another variant edited"
 key3:
   value:
     count_one: "one item"
     count_other: "{count} items"
+key4:
+  value: "Fourth key value"
