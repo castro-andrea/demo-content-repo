@@ -1,0 +1,8 @@
+{
+  "new_messages_zero": "{{count}} رسائل جديدة",
+  "new_messages_one": "رسالة جديدة واحدة",
+  "new_messages_two": "{{count}} رسائل جديدة",
+  "new_messages_few": "{{count}} رسائل جديدة",
+  "new_messages_many": "{{count}} رسائل جديدة",
+  "new_messages_other": "{{count}} رسائل جديدة"
+}
