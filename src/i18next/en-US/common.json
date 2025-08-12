@@ -1,4 +1,4 @@
 {
-    "new_messages_one": "You have one new message",
-    "new_messages_other": "You have {{count}} new messages"
+    "new_messages_one": "one new message",
+    "new_messages_other": "{{count}} new messages"
 }
