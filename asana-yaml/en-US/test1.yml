@@ -8,5 +8,5 @@ test4:
   value: "Fourth key"
 test5:
   value: "Testing with MT adapter %s"
-test5:
+test6:
   value: "Testing another placeholder {{nanme}}"
