@@ -1,5 +1,4 @@
 {
-  "new-messages_one": "{{count}} Neue Nachrichts",
-  "new-messages_other": "{{count}} Neue Nachrichten",
-  "new-messages": "Neue Nachricht"
+    "new_messages_one": "You have one new message",
+    "new_messages_other": "You have {{count}} new messages"
 }
