@@ -9,4 +9,4 @@ test4:
 test5:
   value: "Testing placeholder MT adapter con %s"
 test6:
-  value: "Testing placeholder {{nanme}}"
+  value: "Testing placeholder {{name}}"
