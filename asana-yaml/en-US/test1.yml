@@ -1,2 +1,6 @@
 test1:
   value: "To translate"
+test2:
+  value: "Second value to translate"
+test3:
+  value: "Testing multiple keys again"
