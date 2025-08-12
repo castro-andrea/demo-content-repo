@@ -1,0 +1,6 @@
+{
+  "new_messages_one": "одно новое сообщение",
+  "new_messages_few": "{{count}} новых сообщения",
+  "new_messages_many": "{{count}} новых сообщений",
+  "new_messages_other": "{{count}} новых сообщений"
+}
