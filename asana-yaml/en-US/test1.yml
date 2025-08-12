@@ -4,3 +4,9 @@ test2:
   value: "Second value to translate"
 test3:
   value: "Testing multiple keys again"
+test4:
+  value: "Fourth key"
+test5:
+  value: "Testing with MT adapter %s"
+test5:
+  value: "Testing another placeholder {{nanme}}"
