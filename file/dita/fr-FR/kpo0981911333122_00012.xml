@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE referable-content PUBLIC "-//JCI//DTD DITA Composite//EN" "JCIDitabase.dtd">
+<referable-content id="oha1646153415797" xml:lang="en-us">
+<title>Contenu RTS de la version 16.0 de RC Metasys</title>
+<rcbody><!--Created this for shared content between the What's New document, Metasys System Product Bulletin, and Metasys System Configuration Guide--><p id="p_N10013_N1000E_N10001"/>
+        <p id="p_N10017_N1000E_N10001"><!--Equipment controller content--></p>
+        <p id="p_photo_controllers">
+            <fig id="fig_controllers_12.0">
+                <title>Nouveaux contrôleurs d'équipement</title>
+                <image id="image_bdb_rz2_jtb" keyref="twa1651162205449" width="750px"/>
+            </fig>
+        </p>
+        <p id="p_design_details"><ph status="changed">Les contrôleurs d'équipement des séries CG et CV sont une famille de contrôleurs d'équipement modernisée qui succède à la famille de contrôleurs d'équipement des séries FEC/FAC/VMA. La série CC fait partie d'un système de bout en bout spécialement conçu pour les environnements critiques. Cette famille modernisée partage des détails de conception similaires et comprend les éléments suivants&#x00a0;:</ph><ul id="ul_vzm_sb1_psb">
+                <li>Emballage et style modernisés</li>
+                <li>Borniers à vis amovibles</li>
+                <li>Jeu d'adresses décimales MS/TP avec trois commutateurs rotatifs</li>
+                <li>Plus de mémoire et un processeur plus rapide</li>
+                <li>Transfert de fichiers d'arrière-plan</li>
+                <li>Amélioration de la mise en service du bus SA</li>
+                <li>Modèles avec mise en réseau BACnet MS/TP et N2 avec détection automatique (<ph status="new">Modèles CGM, CVM et CCM</ph>)</li>
+                <li>Modèles avec réseau BACnet/IP et BACnet/SC (<ph status="new">Modèles CGE, CVE et CCE</ph>)<note id="note_xft_ynk_htb">Les modèles CGE, CVE et CCE peuvent agir en tant que nœuds BACnet/SC.</note></li>
+                <li>Sécurité de l'appareil (<ph status="new">Modèles CGE, CVE et CCE</ph>)</li>
+                <li><ph status="changed">Les modèles CGE, CVE et CCE utilisent des composants cryptographiques alignés sur les normes FIPS 140-2</ph></li>
+                <li><ph>Sans fil&#x00a0;: maillage ZFR Pro (modèles CGM et CVM) WRZ-7860 1 à 1 (modèles CG et CV)</ph></li>
+                <li><ph>Contrôleur d'équipement série CG</ph>modèles dotés d'un écran et d'un clavier intégrés</li>
+            </ul></p><p id="p_onboard_display2">L'écran et le clavier intégrés dans les modèles des séries SNC et CG fournissent une interface locale permettant aux utilisateurs d'effectuer les tâches suivantes&#x00a0;:<ul id="ul_pcc_w21_psb">
+                <li>Surveillance des valeurs et de l'état des points</li>
+                <li>Affichage des alarmes et des tendances</li>
+                <li>Sorties prioritaires</li>
+                <li>Réglage des points de consigne et des paramètres</li>
+                <li>Tendance en direct</li>
+                <li><ph status="new">Visualisation et modification des plannings (série CG uniquement)</ph></li>
+                <li><ph status="new">Affichage et modification de la date et de l'heure (série CG uniquement)</ph></li>
+            </ul><draft-comment author="jdownes">16.0 mises À jour</draft-comment></p><p id="p_onboard_display3">Ces capacités aident les utilisateurs finaux et les techniciens de terrain à résoudre rapidement les problèmes et à rétablir le contrôle, tout en étant à proximité de leur équipement mécanique associé.</p>
+        <p id="p_table_models">Le tableau suivant décrit plus en détail les nouveaux modèles de contrôleurs d'équipement.<table colsep="1" frame="all" id="table_xhn_lc1_psb" rowsep="1">
+                <title>Nouveaux modèles de contrôleurs d'équipement</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry align="left" valign="top">Numéro de modèle</entry>
+                            <entry align="left" valign="top">M4-CGM09090-0H</entry>
+                            <entry align="left" valign="top">M4-CGE09090-0H</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry align="left" valign="top"><b>Description</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top"><ph>Contrôleur d'application à usage général avec affichage intégré et clavier de navigation</ph></entry>
+                        </row>
+                        <row>
+                            <entry><b><ph>Afficher les détails</ph></b></entry>
+                            <entry nameend="c3" namest="c2"><ph>Affichage couleur, résolution de 2,4 pouces, 320 x 240</ph></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Entrées et sorties</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top">
+                                <ul id="ul_llj_tc1_psb">
+                                    <li>7 entrées universelles (IU)</li>
+                                    <li>2 entrées binaires (BI)</li>
+                                    <li>3 sorties binaires (BO)</li>
+                                    <li>4 sorties configurables (CO)</li>
+                                    <li>2 sorties analogiques (AO)</li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Écran et clavier intégrés</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top">Oui</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Mise en réseau des bus de terrain</b></entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_xkv_yc1_psb">
+                                    <li>Bus FC (BACnet MS/TP)</li>
+                                    <li>N2 (logiciel commutable)</li>
+                                    <li>ZigBee pour bus de terrain sans fil ZFRPro2 (à l'aide de modules complémentaires)</li>
+                                </ul>
+                            </entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_hs1_bd1_psb">
+                                    <li>BACnet/IP</li>
+                                    <li>BACnet/SC</li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Réussite</b></entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_nyq_cd1_psb">
+                                    <li>MS-FEC2621-0</li>
+                                    <li>MS-FEC1621-1</li>
+                                </ul>
+                            </entry>
+                            <entry align="left" valign="top">Non applicable, car il s'agit d'une nouvelle offre.</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Mode de libération CCT pris en charge</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top"><ph>10,6</ph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <p id="p_N1020A_N1000F_N10001">
+            <fig id="fig_bwy_mnk_htb">
+                <title>Écran montable à distance</title>
+                <image id="image_ghn_w1f_jtb" keyref="kuo1651163440634" width="500px"/>
+            </fig>
+            <table colsep="1" frame="all" id="table_mhf_td1_psb" rowsep="1">
+                <title>Écran montable à distance</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.92*"/>
+                    <thead>
+                        <row>
+                            <entry align="left" valign="top">Numéro de modèle</entry>
+                            <entry align="left" valign="top">M4-DLK0350-0</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry align="left" valign="top"><b>Description</b></entry>
+                            <entry align="left" valign="top">Écran/clavier montable à distance</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Afficher les détails</b></entry>
+                            <entry align="left" valign="top">Écran couleur, résolution de 3,5 pouces, 320 x 240</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Détails du clavier</b></entry>
+                            <entry align="left" valign="top">Sept boutons-poussoirs&#x00a0;:<uicontrol>haut</uicontrol>,<uicontrol>bas</uicontrol>,<uicontrol>gauche</uicontrol>,<uicontrol>droite</uicontrol>,<uicontrol>OK</uicontrol>,<uicontrol>menu</uicontrol>, et<uicontrol>retour</uicontrol></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Style de montage</b></entry>
+                            <entry align="left" valign="top">Panneau et montable en surface<ph>et portable</ph></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Source d'alimentation</b></entry>
+                            <entry align="left" valign="top">Peut être alimenté par le contrôleur sur le bus SA ou alimenté en externe à l'aide d'une alimentation externe de 12 VCC.</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Compatibilité</b></entry>
+                            <entry align="left" valign="top">Se connecte et communique sur le bus SA des appareils compatibles suivants&#x00a0;:<ul id="ul_zkn_321_psb">
+                                    <li>Contrôleurs d'équipement des séries CG et CV</li>
+                                    <li>Contrôleurs d'équipement des séries FAC, FEC et VMA</li>
+                                    <li>Moteurs de contrôle réseau de la série SNC</li>
+                                    <li>Moteurs de contrôle réseau de la série nCe</li>
+                                </ul></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Capacités</b></entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_gpy_1yq_5wb">
+                                    <li>Surveillance des valeurs et de l'état des points</li>
+                                    <li>Affichage des alarmes et des tendances</li>
+                                    <li>Sorties prioritaires</li>
+                                    <li>Réglage des points de consigne et des paramètres</li>
+                                    <li><ph status="new">Visualisation et modification des plannings</ph></li>
+                                    <li><ph status="new">Visualisation et modification de la date et de l'heure</ph></li>
+                                </ul>
+                                <draft-comment author="jdownes">16.0 mises À jour</draft-comment>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Réussite</b></entry>
+                            <entry align="left" valign="top">MS-DIS1710-0</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p id="p_N102F2_N1000F_N10001"><!--SNE engines content--></p>
+        <p id="p_photo_SNEs">
+            <fig id="fig_wjr_fk2_tsb">
+                <title>Moteurs réseau de la série SNE</title>
+            </fig>
+        </p>
+        <p id="p_SNE_12"><ph>Les moteurs de réseau de la série SNE sont la famille la plus récente de moteurs de réseau dans le portefeuille de systèmes d'automatisation du bâtiment Metasys.</ph></p>
+        <p id="p_SNE_images">
+            <fig id="fig_v5c_fx5_g3b">
+                <title>Moteurs réseau de la série SNE</title>
+                <image id="image_qxd_nqb_zmb" keyref="hcl1599843048581" width="750px"/>
+            </fig>
+        </p>
+        <p id="p_N1031B_N1000F_N10001"><!--SNC engines content--></p>
+        <p id="p_SNC_list">Le moteur de contrôle réseau de la série Metasys SNC est une offre hybride qui fournit à la fois la supervision et le contrôle des équipements dans une offre unifiée. Ils assurent la gestion du réseau et la coordination du contrôle à l'échelle du système sur un ou plusieurs réseaux de contrôleurs d'équipement, y compris les contrôleurs d'équipement Metasys suivants&#x00a0;:<ul id="ul_jn5_b3t_mfb">
+                <li>Contrôleurs d'équipement d'application à usage général de la série CG</li>
+                <li>Contrôleurs de boîtier VAV de la série CV</li>
+                <li><ph status="new">Contrôleurs d'équipement pour environnement critique de la série CC</ph></li>
+                <li>Contrôleurs d'équipement de terrain des séries FAC et FEC</li>
+                <li>Contrôleurs de boîtier VAV de la série VMA</li>
+                <li>Contrôleurs d'équipement terminal de la série TEC</li>
+                <li>Contrôleurs d'équipement de la série LN</li>
+                <li>Contrôleurs d'équipement tiers</li>
+            </ul></p>
+        <p id="p_SNC_p">En plus de fournir des capacités de contrôle de supervision, les moteurs de contrôle de réseau de la série SNC disposent également d'interfaces d'entrée et de sortie (E/S) intégrées et d'une logique programmable pour fournir un contrôle direct sur le CVC et d'autres équipements du système du bâtiment.</p>
+        <p id="p_SNC_image">
+            <fig id="fig_jpy_wx5_g3b">
+                <title>Moteurs de contrôle réseau de la série SNC</title>
+                <image id="image_gt4_cvg_zmb" keyref="kks1599840665401" width="750px"/>
+            </fig>
+        </p>
+        <p id="p_N10320_N1000F_N10001">
+            <fig id="fig_bcl_tz2_tsb">
+                <title>Moteurs de contrôle réseau de la série SNC</title>
+            </fig>
+        </p>
+        <p id="p_N10348_N1000F_N10001"><!--Note about VMA1930--></p>
+        <p id="p_N1034D_N1000F_N10001">
+            <note id="note_vma1930_bacnetsc">Vous pouvez mettre à niveau les unités VMA1930 existantes sur le terrain pour prendre en charge BACnet/SC, mais ce modèle n'est plus fabriqué.</note>
+        </p>
+        <p id="p_N1035C_N1000F_N10001"/>
+        <p id="p_N10360_N1000F_N10001"><!--BACnet/SC on NAE85--></p>
+        <p id="p_bacnetsc_nae85"><ph>Le NAE85 prend en charge BACnet/SC et peut agir en tant que concentrateur principal, concentrateur de basculement ou nœud dans la topologie du réseau BACnet/SC. Vous devez acheter la licence complémentaire M4-BACNETSC-0 pour utiliser BACnet/SC. Pour plus d'informations sur BACnet/SC, reportez-vous à<ph conkeyref="hzs1557933250227/doc_12013959"/>.</ph></p>
+        <p id="p_N10371_N1000F_N10001"><!--BACnet/SC on LCS85--></p>
+        <p id="p_bacnetsc_lcs85"><ph>Le LCS85 prend en charge BACnet/SC et peut agir en tant que concentrateur principal, concentrateur de basculement ou nœud dans la topologie du réseau BACnet/SC. Vous devez acheter la licence complémentaire M4-BACNETSC-0 pour utiliser BACnet/SC. Pour plus d'informations sur BACnet/SC, reportez-vous à<ph conkeyref="hzs1557933250227/doc_12013959"/>.</ph></p>
+        <p id="p_N1038B_N1000F_N10001"/>
+        <p id="p_N1038F_N1000F_N10001"><!--BACnet/SC intro--></p>
+        <p id="p_bacnetsc_intro">BACnet Secure Connect (BACnet/SC) est une mise à jour récente de la norme d'interopérabilité BACnet visant à améliorer la cybersécurité et l'intégrité de l'infrastructure réseau. BACnet/SC est défini à l'annexe AB du<ph status="changed">ASHRAE 135-2024</ph>Norme du protocole BACnet. BACnet/SC identifie une couche de liaison de données cryptée et sécurisée spécialement conçue pour répondre aux exigences, aux politiques et aux contraintes des infrastructures de réseau IP.</p>
+        <p id="p_N10399_N1000F_N10001"/><!--BACnet/SC support at 12.0--><ul id="ul_bacnetsc_supported_components_12">
+            <li>Logiciel de serveur d'applications et de données (ADS), ADS-Lite et serveur d'applications et de données étendu (ADX)</li>
+            <li>Moteurs réseau logiciels des séries NAE85 et LCS85<note id="note_mch_mxw_psb">Vous devez acheter la licence complémentaire M4-BACNETSC-0 pour utiliser BACnet/SC sur les ADS, ADS-Lite, ADX, OAS, NAE85 ou LCS85.</note></li>
+            <li>Moteurs réseau des séries SNE et SNC</li>
+            <li>Contrôleurs d'équipement basés sur IP des séries VMA1930, FAC4911, CGE et CVE<note id="note_fsp_5df_htb">Vous pouvez mettre à niveau les unités VMA1930 existantes sur le terrain pour prendre en charge BACnet/SC, mais ce modèle n'est plus fabriqué.</note></li>
+        </ul>
+        <p id="p_N103C3_N1000F_N10001"/>
+        <p id="p_N103C7_N1000F_N10001"><!--BACnet/SC benefits--></p>
+        <p id="p_bacnetsc_benefits">Les principaux avantages de la conformité à Metasys BACnet/SC sont les suivants&#x00a0;:<ul id="ul_kg3_qzz_4sb">
+                <li>S'assure que Metasys respecte les derniers protocoles de sécurité informatique et d'infrastructure tout en maintenant l'interopérabilité.</li>
+                <li>Répond à de nombreuses préoccupations exprimées par les services informatiques au sujet du protocole BACnet/IP d'origine.</li>
+            </ul></p>
+        <p id="p_N10387_N1000E_N10001"><!--NAE notes--></p>
+    </rcbody>
+</referable-content>
