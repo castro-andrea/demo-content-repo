@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//JCI//DTD DITA Composite//EN" "JCIDitabase.dtd">
+<reference id="gfl1565175933593" xml:lang="en-us">
+    <title>Motores de rede da série SNE</title>
+    <refbody>
+        <section id="section_slq_cx5_g3b">
+            <p conkeyref="oha1646153415797/p_SNE_12"/>
+            <p conkeyref="oha1646153415797/p_SNE_images"/>
+            <p>A tabela a seguir descreve os modelos SNE em mais detalhes. A letra G no código do produto de um modelo indica que o modelo é a versão Buy American.<note id="note_r2y_bgq_1jc" status="new">Para obter informações sobre o suporte à integração de fornecedores, consulte<xref keyref="wez1763561072221"/>.</note>
+            </p>
+        </section>
+        <section id="section_wxp_zlr_f3b">
+            <p>
+                <table conkeyref="etl1565180134900/table_a2d_2mr_f3b" id="table_ltn_qjc_r3b">
+                    <tgroup cols="ixia_default_value">
+                        <tbody>
+                            <row>
+                                <entry/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+    </refbody>
+</reference>
