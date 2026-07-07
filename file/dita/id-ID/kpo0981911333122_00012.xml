@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE referable-content PUBLIC "-//JCI//DTD DITA Composite//EN" "JCIDitabase.dtd">
+<referable-content id="oha1646153415797" xml:lang="en-us">
+<title>RC Metasys Release 16.0 RTS content</title>
+<rcbody><!--Created this for shared content between the What's New document, Metasys System Product Bulletin, and Metasys System Configuration Guide--><p id="p_N10013_N1000E_N10001"/>
+        <p id="p_N10017_N1000E_N10001"><!--Equipment controller content--></p>
+        <p id="p_photo_controllers">
+            <fig id="fig_controllers_12.0">
+                <title>New equipment controllers</title>
+                <image id="image_bdb_rz2_jtb" keyref="twa1651162205449" width="750px"/>
+            </fig>
+        </p>
+        <p id="p_design_details"><ph status="changed">The CG and CV series equipment controllers are a modernized equipment controller family that succeed the FEC/FAC/VMA series equipment controller family. The CC series are part of an end-to-end system specifically designed for critical environments. This modernized family shares similar design details, and includes the following:</ph><ul id="ul_vzm_sb1_psb">
+                <li>Modernized packaging and styling</li>
+                <li>Removable screw terminal blocks</li>
+                <li>Decimal MS/TP address set with three rotary switches</li>
+                <li>More memory and faster processor</li>
+                <li>Background file transfer</li>
+                <li>Improved SA Bus commissioning</li>
+                <li>Models with BACnet MS/TP and N2 networking with auto-detect (<ph status="new">CGM, CVM, and CCM models</ph>)</li>
+                <li>Models with BACnet/IP and BACnet/SC networking (<ph status="new">CGE, CVE, and CCE models</ph>)<note id="note_xft_ynk_htb">The CGE, CVE, and CCE models can act as BACnet/SC nodes.</note></li>
+                <li>Device Security (<ph status="new">CGE, CVE, and CCE models</ph>)</li>
+                <li><ph status="changed">CGE, CVE and CCE models use cryptographic components aligned with FIPS 140-2 standards</ph></li>
+                <li><ph>Wireless: ZFR Pro mesh (CGM and CVM models) WRZ-7860 1-to-1 (CG and CV models)</ph></li>
+                <li><ph>CG series equipment controller</ph>models featuring an onboard display and keypad</li>
+            </ul></p><p id="p_onboard_display2">The onboard display and keypad in the SNC and CG series models provide a local interface for users to perform the following tasks:<ul id="ul_pcc_w21_psb">
+                <li>Monitoring point values and status</li>
+                <li>Viewing alarms and trends</li>
+                <li>Overriding outputs</li>
+                <li>Adjusting setpoints and parameters</li>
+                <li>Live trending</li>
+                <li><ph status="new">Viewing and modifying schedules (CG series only)</ph></li>
+                <li><ph status="new">Viewing and modifying the date and time (CG series only)</ph></li>
+            </ul><draft-comment author="jdownes">16.0 updates</draft-comment></p><p id="p_onboard_display3">These capabilities help end users and field technicians quickly troubleshoot issues and restore control, while being in close proximity to their associated mechanical equipment.</p>
+        <p id="p_table_models">The following table outlines the new equipment controller models in more detail.<table colsep="1" frame="all" id="table_xhn_lc1_psb" rowsep="1">
+                <title>New equipment controller models</title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry align="left" valign="top">Model number</entry>
+                            <entry align="left" valign="top">M4-CGM09090-0H</entry>
+                            <entry align="left" valign="top">M4-CGE09090-0H</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry align="left" valign="top"><b>Description</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top"><ph>General purpose application controller with onboard display and navigation keypad</ph></entry>
+                        </row>
+                        <row>
+                            <entry><b><ph>Display details</ph></b></entry>
+                            <entry nameend="c3" namest="c2"><ph>2.4-inch, 320 x 240 resolution, color display</ph></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Inputs and Outputs</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top">
+                                <ul id="ul_llj_tc1_psb">
+                                    <li>7 universal inputs (UIs)</li>
+                                    <li>2 binary inputs (BIs)</li>
+                                    <li>3 binary outputs (BOs)</li>
+                                    <li>4 configurable outputs (COs)</li>
+                                    <li>2 analog outputs (AOs)</li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Onboard display and keypad</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top">Yes</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Field Bus Networking</b></entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_xkv_yc1_psb">
+                                    <li>FC bus (BACnet MS/TP)</li>
+                                    <li>N2 (software switchable)</li>
+                                    <li>ZigBee for ZFRPro2 Wireless Field Bus (using add-on modules)</li>
+                                </ul>
+                            </entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_hs1_bd1_psb">
+                                    <li>BACnet/IP</li>
+                                    <li>BACnet/SC</li>
+                                </ul>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Succeeds</b></entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_nyq_cd1_psb">
+                                    <li>MS-FEC2621-0</li>
+                                    <li>MS-FEC1621-1</li>
+                                </ul>
+                            </entry>
+                            <entry align="left" valign="top">Not applicable, as this is a new offering.</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Supported CCT Release Mode</b></entry>
+                            <entry align="left" nameend="c3" namest="c2" valign="top"><ph>10.6</ph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <p id="p_N1020A_N1000F_N10001">
+            <fig id="fig_bwy_mnk_htb">
+                <title>Remote mountable display</title>
+                <image id="image_ghn_w1f_jtb" keyref="kuo1651163440634" width="500px"/>
+            </fig>
+            <table colsep="1" frame="all" id="table_mhf_td1_psb" rowsep="1">
+                <title>Remote mountable display</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1.92*"/>
+                    <thead>
+                        <row>
+                            <entry align="left" valign="top">Model number</entry>
+                            <entry align="left" valign="top">M4-DLK0350-0</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry align="left" valign="top"><b>Description</b></entry>
+                            <entry align="left" valign="top">Remote mountable display/keypad</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Display details</b></entry>
+                            <entry align="left" valign="top">3.5-inch, 320 x 240 resolution, color display</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Keypad details</b></entry>
+                            <entry align="left" valign="top">Seven pushbuttons:<uicontrol>up</uicontrol>,<uicontrol>down</uicontrol>,<uicontrol>left</uicontrol>,<uicontrol>right</uicontrol>,<uicontrol>OK</uicontrol>,<uicontrol>menu</uicontrol>, and<uicontrol>back</uicontrol></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Mounting style</b></entry>
+                            <entry align="left" valign="top">Panel and surface mountable<ph>and portable</ph></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Power source</b></entry>
+                            <entry align="left" valign="top">Can be powered by controller over SA bus or powered externally using 12 VDC external power supply.</entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Compatibility</b></entry>
+                            <entry align="left" valign="top">Connects to and communicates on the SA bus of the following compatible devices:<ul id="ul_zkn_321_psb">
+                                    <li>CG and CV series equipment controllers</li>
+                                    <li>FAC, FEC, and VMA series equipment controllers</li>
+                                    <li>SNC series network control engines</li>
+                                    <li>NCE series network control engines</li>
+                                </ul></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Capabilities</b></entry>
+                            <entry align="left" valign="top">
+                                <ul id="ul_gpy_1yq_5wb">
+                                    <li>Monitoring point values and status</li>
+                                    <li>Viewing alarms and trends</li>
+                                    <li>Overriding outputs</li>
+                                    <li>Adjusting setpoints and parameters</li>
+                                    <li><ph status="new">Viewing and modifying schedules</ph></li>
+                                    <li><ph status="new">Viewing and modifying the date and time</ph></li>
+                                </ul>
+                                <draft-comment author="jdownes">16.0 updates</draft-comment>
+                            </entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="top"><b>Succeeds</b></entry>
+                            <entry align="left" valign="top">MS-DIS1710-0</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <p id="p_N102F2_N1000F_N10001"><!--SNE engines content--></p>
+        <p id="p_photo_SNEs">
+            <fig id="fig_wjr_fk2_tsb">
+                <title>SNE series network engines</title>
+            </fig>
+        </p>
+        <p id="p_SNE_12"><ph>The SNE series network engines are the most recent family of network engines in the Metasys building automation system portfolio.</ph></p>
+        <p id="p_SNE_images">
+            <fig id="fig_v5c_fx5_g3b">
+                <title>SNE series network engines</title>
+                <image id="image_qxd_nqb_zmb" keyref="hcl1599843048581" width="750px"/>
+            </fig>
+        </p>
+        <p id="p_N1031B_N1000F_N10001"><!--SNC engines content--></p>
+        <p id="p_SNC_list">The Metasys SNC series network control engine is a hybrid offering that provides both supervisory and equipment control in a unified offering. They provide network management and system-wide control coordination over one or more networks of equipment controllers, including the following Metasys equipment controllers:<ul id="ul_jn5_b3t_mfb">
+                <li>CG series General Purpose Application Equipment Controllers</li>
+                <li>CV series VAV Box Controllers</li>
+                <li><ph status="new">CC Series Critical Environment Equipment Controllers</ph></li>
+                <li>FAC and FEC series Field Equipment Controllers</li>
+                <li>VMA series VAV Box Controllers</li>
+                <li>TEC series Terminal Equipment Controllers</li>
+                <li>LN series Equipment Controllers</li>
+                <li>Third-party equipment controllers</li>
+            </ul></p>
+        <p id="p_SNC_p">In addition to providing supervisory control capabilities, the SNC series network control engines also feature onboard input and output interfaces (I/O) and programmable logic to provide direct control over HVAC and other building system equipment.</p>
+        <p id="p_SNC_image">
+            <fig id="fig_jpy_wx5_g3b">
+                <title>SNC series network control engines</title>
+                <image id="image_gt4_cvg_zmb" keyref="kks1599840665401" width="750px"/>
+            </fig>
+        </p>
+        <p id="p_N10320_N1000F_N10001">
+            <fig id="fig_bcl_tz2_tsb">
+                <title>SNC series network control engines</title>
+            </fig>
+        </p>
+        <p id="p_N10348_N1000F_N10001"><!--Note about VMA1930--></p>
+        <p id="p_N1034D_N1000F_N10001">
+            <note id="note_vma1930_bacnetsc">You can upgrade existing VMA1930 units in the field to support BACnet/SC, but this model is discontinued from manufacturing.</note>
+        </p>
+        <p id="p_N1035C_N1000F_N10001"/>
+        <p id="p_N10360_N1000F_N10001"><!--BACnet/SC on NAE85--></p>
+        <p id="p_bacnetsc_nae85"><ph>The NAE85 supports BACnet/SC and can act as a Primary Hub, Failover Hub, or Node in the BACnet/SC network topology. You need to purchase the M4-BACNETSC-0 add-on license to use BACnet/SC. For more information about BACnet/SC, refer to<ph conkeyref="hzs1557933250227/doc_12013959"/>.</ph></p>
+        <p id="p_N10371_N1000F_N10001"><!--BACnet/SC on LCS85--></p>
+        <p id="p_bacnetsc_lcs85"><ph>The LCS85 supports BACnet/SC and can act as a Primary Hub, Failover Hub, or Node in the BACnet/SC network topology. You need to purchase the M4-BACNETSC-0 add-on license to use BACnet/SC. For more information about BACnet/SC, refer to<ph conkeyref="hzs1557933250227/doc_12013959"/>.</ph></p>
+        <p id="p_N1038B_N1000F_N10001"/>
+        <p id="p_N1038F_N1000F_N10001"><!--BACnet/SC intro--></p>
+        <p id="p_bacnetsc_intro">BACnet Secure Connect (BACnet/SC) is a recent update to the BACnet interoperability standard aimed at improving cybersecurity and network infrastructure integrity. BACnet/SC is defined in Annex AB of the<ph status="changed">ASHRAE 135-2024</ph>BACnet protocol standard. BACnet/SC identifies a secure, encrypted datalink layer specifically designed to meet the requirements, policies, and constraints of IP networking infrastructures.</p>
+        <p id="p_N10399_N1000F_N10001"/><!--BACnet/SC support at 12.0--><ul id="ul_bacnetsc_supported_components_12">
+            <li>Application and Data Server (ADS), ADS-Lite, and Extended Application and Data Server (ADX) series application server software</li>
+            <li>NAE85 and LCS85 series software-based network engines<note id="note_mch_mxw_psb">You need to purchase the M4-BACNETSC-0 add-on license to use BACnet/SC on the ADS, ADS-Lite, ADX, OAS, NAE85, or LCS85.</note></li>
+            <li>SNE and SNC series network engines</li>
+            <li>VMA1930, FAC4911, CGE, and CVE series IP-based equipment controllers<note id="note_fsp_5df_htb">You can upgrade existing VMA1930 units in the field to support BACnet/SC, but this model is discontinued from manufacturing.</note></li>
+        </ul>
+        <p id="p_N103C3_N1000F_N10001"/>
+        <p id="p_N103C7_N1000F_N10001"><!--BACnet/SC benefits--></p>
+        <p id="p_bacnetsc_benefits">The primary benefits of Metasys BACnet/SC compliance include the following:<ul id="ul_kg3_qzz_4sb">
+                <li>Ensures Metasys follows the latest IT security and infrastructure protocols while still maintaining interoperability.</li>
+                <li>Addresses many concerns that IT departments have expressed over the original BACnet/IP protocol.</li>
+            </ul></p>
+        <p id="p_N10387_N1000E_N10001"><!--NAE notes--></p>
+    </rcbody>
+</referable-content>
