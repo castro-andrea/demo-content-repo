@@ -1,0 +1,70 @@
+{
+    "appTagline": "Care that meets you where you are.",
+
+    "greetingByName": "Hi {firstName}, welcome back.",
+    "@greetingByName": {
+        "description": "Greeting shown on the home screen when a returning member opens the app.",
+        "placeholders": {
+            "firstName": {
+                "type": "String",
+                "example": "Alex"
+            }
+        }
+    },
+
+    "unreadMessageCount": "{count, plural, =0{No new messages} =1{{count} new message} other{{count} new messages}}",
+    "@unreadMessageCount": {
+        "description": "Inbox badge text. Note the nested {count} placeholder inside the plural variants.",
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+
+    "sessionStatusLabel": "{status, select, upcoming{Upcoming} completed{Completed} cancelled{Cancelled} other{Unknown}}",
+    "@sessionStatusLabel": {
+        "description": "Status chip for a therapy session. The selector keys (upcoming/completed/cancelled/other) are code-level enum values and must NOT be translated.",
+        "placeholders": {
+            "status": {
+                "type": "String"
+            }
+        }
+    },
+
+    "updateYourAddress": "Update your address{includeEllipses, select, true{ ...} other{}}",
+    "@updateYourAddress": {
+        "description": "Boolean-style select where one variant is empty. The selector keys (true/other) must NOT be translated; the whitespace and ellipsis inside the variant are significant.",
+        "placeholders": {
+            "includeEllipses": {
+                "type": "String"
+            }
+        }
+    },
+
+    "daysUntilRenewal": "{planName}: {days, plural, =0{renews today} =1{renews in 1 day} other{renews in {days} days}}",
+    "@daysUntilRenewal": {
+        "description": "Combines a free-text placeholder with a nested plural - exercises multiple placeholders in one message.",
+        "placeholders": {
+            "planName": {
+                "type": "String",
+                "example": "Premium"
+            },
+            "days": {
+                "type": "int"
+            }
+        }
+    },
+
+    "stillHaveQuestionsHtml": "Still have questions? Reach out to <u><a href='mailto:{email}'>{email}</a></u>",
+    "@stillHaveQuestionsHtml": {
+        "description": "Rendered as rich text. HTML tags and attributes (including the {email} placeholder inside the href) must be preserved exactly; only the visible words are translated.",
+        "placeholders": {
+            "email": {
+                "type": "String"
+            }
+        }
+    },
+
+    "privacyReassurance": "Your answer won't be shared with your employer, and we're keeping your plan's details private."
+}
