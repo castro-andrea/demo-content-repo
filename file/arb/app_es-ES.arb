@@ -1,0 +1,63 @@
+{
+  "appTagline": "Cuidado que te encuentra donde estás.",
+  "greetingByName": "Hola {firstName}, bienvenido de nuevo.",
+  "@greetingByName": {
+    "description": "Saludo que se muestra en la pantalla de inicio cuando un miembro recurrente abre la aplicación.",
+    "placeholders": {
+      "firstName": {
+        "type": "Cadena",
+        "example": "Alex"
+      }
+    }
+  },
+  "unreadMessageCount": "{count, plural, =0{No hay mensajes} =1{{count} nuevos mensaje} other{{count} nuevo mensajes nuevos}}",
+  "@unreadMessageCount": {
+    "description": "Texto de la insignia de la bandeja de entrada. Tenga en cuenta el {count} marcador de posición anidado dentro de las variantes plurales.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sessionStatusLabel": "{status, select, upcoming{Próximo} completed{Completado} cancelled{Cancelado} other{Desconocido}}",
+  "@sessionStatusLabel": {
+    "description": "Chip de estado para una sesión de terapia. Las teclas de selección (próximas/completadas/canceladas/otras) son valores de enumeración a nivel de código y NO deben traducirse.",
+    "placeholders": {
+      "status": {
+        "type": "Cadena"
+      }
+    }
+  },
+  "updateYourAddress": "Actualiza tu dirección{includeEllipses, select, true{...} other{}}",
+  "@updateYourAddress": {
+    "description": "Selección de estilo booleano donde una variante está vacía. Las teclas de selección (verdadero/otro) NO deben traducirse; el espacio en blanco y la elipsis dentro de la variante son significativos.",
+    "placeholders": {
+      "includeEllipses": {
+        "type": "Cadena"
+      }
+    }
+  },
+  "daysUntilRenewal": "{planName}: {days, plural, =0{renueva hoy} =1{renueva en 1 día} other{renueva en {days} días}}",
+  "@daysUntilRenewal": {
+    "description": "Combina un marcador de posición de texto libre con un plural anidado: ejerce múltiples marcadores de posición en un mensaje.",
+    "placeholders": {
+      "planName": {
+        "type": "Cadena",
+        "example": "Premium"
+      },
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "stillHaveQuestionsHtml": "¿Tienes más preguntas? Ponte en contacto con <u><a href='mailto:{email}'>{email}</a></u>",
+  "@stillHaveQuestionsHtml": {
+    "description": "Representado como texto enriquecido. Las etiquetas y atributos HTML (incluido el {email} marcador de posición dentro del href) deben conservarse exactamente; solo se traducen las palabras visibles.",
+    "placeholders": {
+      "email": {
+        "type": "Cadena"
+      }
+    }
+  },
+  "privacyReassurance": "No compartiremos tu respuesta con tu empleador y mantendremos la privacidad de los detalles de tu plan."
+}
