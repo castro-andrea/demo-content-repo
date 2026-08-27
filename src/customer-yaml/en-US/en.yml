@@ -10,3 +10,5 @@ key3:
     count_other: "{count} items"
 key4:
   value: "Fourth key value"
+key5:
+  value: "I am the fifth key value, hello!"
