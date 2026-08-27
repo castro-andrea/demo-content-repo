@@ -12,3 +12,5 @@ key4:
   value: "Fourth key value"
 key5:
   value: "I am the fifth key value, hello!"
+key6:
+  value: "Sixth key value"
