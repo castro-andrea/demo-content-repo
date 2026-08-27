@@ -11,4 +11,4 @@ test5:
 test6:
   value: "Testing placeholder {{name}}"
 test7:
-  value: "Testing onChange"
+  value: "Testing on-change"
