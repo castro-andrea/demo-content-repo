@@ -10,3 +10,5 @@ test5:
   value: "Testing placeholder MT adapter con %s"
 test6:
   value: "Testing placeholder {{name}}"
+test7:
+  value: "Testing onChange"
