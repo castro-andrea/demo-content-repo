@@ -1,6 +1,0 @@
-{
-  "new_messages_one": "одно новое сообщение здесь",
-  "new_messages_few": "{{count}} новые сообщения здесь",
-  "new_messages_many": "{{count}} новые сообщения здесь",
-  "new_messages_other": "{{count}} новые сообщения здесь"
-}
