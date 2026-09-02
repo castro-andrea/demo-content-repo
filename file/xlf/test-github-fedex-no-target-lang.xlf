@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<file original="Additional%20copy%20needs" source-language="en-US" datatype="plaintext">
+<body pageId="0:1">
+<group restype="x-FRAME" id="1:2" resname="Additional%20copy%20needs">
+<trans-unit id="1:6" resname="Turkey%E2%80%99s%20Priority%20Sectors%3A%20Logistics%20Demands%20and%20SME%20Opportunities%20Logistics%20Profile%20%E2%80%A2Needs%C2%A0high-security%2C%20bonded%20custody%2C%20and%20insured%20movements%20%E2%80%A2Express%20channels%20for%20samples%2C%20fashion%20capsules%2C%20e-commerce%20returns.%20%E2%80%A2Secure%20couriering%20and%20protective%20packaging.%20%E2%80%A2Requires%20cost-efficient%20shipping%20for%20large%20volumes.%20%E2%80%A2Air%20freight%20is%20used%20for%20samples%2C%20fast%20fashion%2C%20or%20urgent%20replenishment.%20%E2%80%A2Flexibility%20needed%20for%20seasonal%20fashion%20cycles.%20%E2%80%A2Requires%C2%A0secure%2C%20time-critical%2C%20and%20compliance-ready%20multimodal%20transport.%20%E2%80%A2Air%20freight%20is%20used%20for%20high-value%20and%20dual-use%20components%20%E2%80%A2Defense-linked%20shipments%20need%C2%A0export-control%20clearance%2C%20traceability%2C%20and%20certified%20handling."><source><ph id="1"> {"ftFamily":"Tahoma","ftWeight":"Bold","ftSize":32,"ltSpacingUnit":"PIXELS","ltSpacingValue":-1.3460911512374878,"ltOptions":"NONE","txStyleId":"","txDecoration":"NONE","txCase":"ORIGINAL","indent":0,"flStyleId":"","fill":"[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0,\"g\":0,\"b\":0},\"boundVariables\":{}}]","hyperlinkType":"null","hyperlinkValue":"null","lnHeightUnit":"PERCENT","lnHeightValue":100}</ph>Turkey’s Priority Sectors: Logistics Demands and SME Opportunities
+<ph id="2"> {"ftFamily":"Tahoma","ftWeight":"Regular","ftSize":32,"ltSpacingUnit":"PIXELS","ltSpacingValue":-1.3460911512374878,"ltOptions":"NONE","txStyleId":"","txDecoration":"NONE","txCase":"ORIGINAL","indent":0,"flStyleId":"","fill":"[{\"type\":\"SOLID\",\"visible\":true,\"opacity\":1,\"blendMode\":\"NORMAL\",\"color\":{\"r\":0,\"g\":0,\"b\":0},\"boundVariables\":{}}]","hyperlinkType":"null","hyperlinkValue":"null","lnHeightUnit":"PERCENT","lnHeightValue":100}</ph>
+Logistics Profile
+•Needs high-security, bonded custody, and insured movements
+•Express channels for samples, fashion capsules, e-commerce returns.
+•Secure couriering and protective packaging.
+•Requires cost-efficient shipping for large volumes.
+•Air freight is used for samples, fast fashion, or urgent replenishment.
+•Flexibility needed for seasonal fashion cycles.
+•Requires secure, time-critical, and compliance-ready multimodal transport.
+•Air freight is used for high-value and dual-use components
+•Defense-linked shipments need export-control clearance, traceability, and certified handling.
+
+</source><note>Figma page name: Page 1</note><note>Figma top level item name: Additional copy needs</note><note>Figma text layer name: Turkey’s Priority Sectors: Logistics Demands and SME Opportunities Logistics Profile •Needs high-security, bonded custody, and insured movements •Express channels for samples, fashion capsules, e-commerce returns. •Secure couriering and protective packaging. •Requires cost-efficient shipping for large volumes. •Air freight is used for samples, fast fashion, or urgent replenishment. •Flexibility needed for seasonal fashion cycles. •Requires secure, time-critical, and compliance-ready multimodal transport. •Air freight is used for high-value and dual-use components •Defense-linked shipments need export-control clearance, traceability, and certified handling.</note></trans-unit>
+</group>
+</body>
+</file>
+</xliff>
