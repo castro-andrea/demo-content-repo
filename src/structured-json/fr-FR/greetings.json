@@ -1,0 +1,12 @@
+{
+  "greeting": {
+    "translation": "Bonjour et bienvenue sur notre plateforme, tout le monde",
+    "pending_locales": [
+      "it-IT",
+      "fr-FR",
+      "de-DE",
+      "uk-UA"
+    ],
+    "note": "override key under test, narrow pending_locales after it-IT is delivered"
+  }
+}
