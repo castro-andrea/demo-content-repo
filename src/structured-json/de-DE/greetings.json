@@ -1,0 +1,16 @@
+{
+  "greeting": {
+    "translation": "Hallo und herzlich willkommen auf unserer Plattform!",
+    "pending_locales": [
+      "it-IT",
+      "fr-FR",
+      "de-DE",
+      "uk-UA"
+    ],
+    "note": "override key under test, narrow pending_locales after it-IT is delivered"
+  },
+  "footer_note": {
+    "translation": "Alle Rechte vorbehalten",
+    "note": "no override, uses project default target languages, control group"
+  }
+}
